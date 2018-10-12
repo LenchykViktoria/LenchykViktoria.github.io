@@ -71,9 +71,10 @@ textarea {
 }
 .ba-item{
 	max-width: 360px;
-	max-height: 540px;
+	height: 540px;
 	background: #fff;
 	margin: 20px 0 0 0;
+	position: relative;
 }
 .ba-item__first {
 	max-width: 740px;
@@ -96,8 +97,11 @@ textarea {
 	width: 100%;
 }
 .ba-post__body {
-	padding: 25px 30px;
 	
+	
+}
+.ba-post__first {
+	padding: 400px 30px 0;
 }
 
 .ba-post__body--abs{
@@ -111,24 +115,40 @@ textarea {
 	color: #FFF;
 	max-width: 100%; 
 }
-.ba-post__first{
-	padding: 400px 0 0 0;
+.ba-post__h2 {
+	font-size: 35px;
+	text-transform: uppercase;
 }
 
 }
 .ba-post__title {
 	max-width: 360px;
 	font-size: 30px;
-	text-transform: uppercase;
+	text-align: center;
 
 }
 .ba-post__title:not(.ba-post__title--no-grow) {
 
 }
 .ba-author{
-	text-decoration: none;
+	text-decoration: none; 
 }
-.ba-author__name{
-	margin: 0 0 0 10px;
-	color: #1D1D1D;
+.ba-author__img {
+	position: absolute;
+	bottom: 0;
+	padding: 28px;
+}
+.footer {
+	height: 210px;
+	width: 100%;
+	display: inline-block;
+
+}
+.footer-content__loading {
+	margin: 0;
+	text-align: center;
+	color: black;
+	opacity: 0.5;
+	padding: 90px 0;
+	
 }
