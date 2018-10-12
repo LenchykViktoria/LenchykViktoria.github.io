@@ -1,0 +1,56 @@
+header {
+	background-image: url(https://www.firestock.ru/wp-content/uploads/2015/05/Tumblr-Guy-Backgrounds-12-700x437.jpg);
+	background-size: 100%;
+	height: 700px;
+	text-align: center;
+}
+body {
+	background-color: black;
+	text-align: center;
+}
+p {
+	color: white;
+}
+h1 {
+	color: blueviolet;
+	font-size: 74px;
+}
+h2,h3 {
+	color: yellowgreen;
+}
+.text {
+	font-size: 24px;
+	color: springgreen;
+}
+section.line p {
+	font-size: 22px;
+	color: black;
+}
+.link:hover{
+	background-color: skyblue
+}
+.logon,.your_name,.search {
+	font-size: 60px;
+}
+.line {
+	background-color: yellow;
+}
+ul li:before {
+	content:'▲';
+}
+ol {
+	float: left;
+	width: 50%;
+	font-size: 24px;
+}
+.information {
+	font-size: 24px;
+}
+.attention {
+	background-color: lightblue;
+	font-size: 74px;
+	color: orange;
+}
+div {
+	display: block;
+}

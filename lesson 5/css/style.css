@@ -1,0 +1,98 @@
+/*
+/////////MAP/////// 
+// #COMMON
+// #HEADER
+// #BODY
+// #FOOTER
+*/
+
+/*#COMMON*/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 100%;
+	height: 100vh;
+	color: #c2c2c2;
+	background-color: #F1F1F1;
+}
+a:link, 
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #c2c2c2;
+}
+a:hover, .search .search_input:focus {
+	color: #ec5a62;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 50px auto 0;
+}
+.search {
+
+}
+.search > input {
+	font-size: 4em;
+	border: none;
+	background-color: transparent;
+
+
+	/* background-color: red; remove before prodaction*/
+}
+.search .search_input {
+	font-weight: 600;
+	width: 93.7%;
+}
+.search .search_button {
+	width: 75px;
+	background-image: url("https://cdn.pixabay.com/photo/2014/04/03/00/31/magnifying-glass-308581_1280.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+	margin-left: -4px;
+}
+.columns {
+	padding: 5em 0;
+}
+.column h2 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.column {
+	display: inline-block;
+	width: 32%;
+	margin-right: 1em;
+	}
+.column:first-child img {
+	border-radius: 50%;
+}
+
+.column:last-child {
+	margin-right: 0;
+
+
+.column ul {
+	list-style: none;
+	padding: 0;
+}
+.column ul li a {
+	display: block;
+	padding: 10px;
+	background-color: rgba(118, 117, 128, 0.05)
+}
+.column ul li a:hover {
+	background-color: rgba(118, 117, 128, 0.1)
+}
+.column ul li {
+	margin-bottom: 5px;
+}
+.column ul li a img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
