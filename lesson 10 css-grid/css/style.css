@@ -23,11 +23,10 @@ body {
 	clear: both;
 }
 
-.cf::after {
-	content: ""
-}
+.cf::after,
 .cf::before {
 	display: table;
+	content: "";
 }
 
 
@@ -190,7 +189,8 @@ body {
 	line-height: 2;
 }
 
-.benefits .heading--section {
+.benefits .heading--section,
+.team .heading--section {
 	text-align: center;
 }
 
@@ -200,7 +200,7 @@ body {
 	text-align: center;
 }
 
-.benefits-headings {
+.section-headings {
 	margin-bottom: 100px;
 }
 
@@ -233,4 +233,80 @@ body {
 
 .benefits-grid:not(:last-child) {
 	margin-bottom: 30px;
+}
+
+.team {
+	padding-top: 150px;
+}
+
+.team .col-3 {
+	margin-bottom: 30px;
+}
+
+.main-footer {
+	padding: 50px 0;
+	background-color: #7beec7;
+	text-transform: uppercase;
+	line-height: 1.4;
+}
+
+.left-side > h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.left-side > button {
+	max-width: 160px;
+	width: 100%;
+	background-color: #fff;
+	border: none;
+	color: #7beec7;
+	padding: 15px 0;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.form-wrapper {
+	background-color: #fff;
+	padding: 15px 20px; 
+}
+
+.form-wrapper h3 {
+	font-size: 23px;
+}
+
+.form-wrapper > p {
+	text-transform: none;
+	margin-bottom: 25px;
+	color: #999999;
+}
+
+.form-wrapper .row {
+	margin-bottom: 15px;
+}
+
+form input {
+	min-height: 50px;
+	float: left;
+	border-radius: 0;
+}
+
+form input[type="text"] {
+	border: 1px solid #e5e5e5;
+	font-size: 12px;
+	padding-left: 15px;
+	min-width: 73%;
+	border-right: none;
+}
+
+form input[type="submit"] {
+	color: #fff;
+	background-color: #7beec7;
+	border: 1px solid #7beec7;
+	min-width: 135px;
+	max-width: 27%;
+	cursor: pointer;
 }
