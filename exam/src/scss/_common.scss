@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-width: 1024px;
+	width: 100%;
+	height: 100vh;
+}
+
+body {
+	font-size: 100%;
+	font-family: $main-font;
+	color: $white-color;
+}
+
+ul>li>a {
+	display: block;
+	
+}
+
+a {
+	text-decoration: none;
+	color: $white-color;
+}
+
+
+
+
+@for $i from 1 through 6 {
+	h#{$i} {
+		margin: 0;
+	}
+}

@@ -1,0 +1,22 @@
+.second-container {
+	width: 100%;
+	background-color: $light-blue-color;
+	height: 80px;
+	position: relative;
+	font-family: $secondary-font;
+
+	&__logo {
+		position: absolute;
+		text-transform: uppercase;
+		letter-spacing: $main-spacing;
+		color: $white-color;
+		float: left;
+		font-size: 15px;
+
+	}
+
+	&__nav {
+		display: flex;
+		
+	}
+}

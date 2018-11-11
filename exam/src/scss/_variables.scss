@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
 @font-face {
- font-family: "Aleo", sans-serif;
- src: url("../fonts/aleo-regular-webfont.eot"),
-        url("../fonts/aleo-regular-webfont.woff"),
-        url("../fonts/aleo-regular-webfont.woff2"),
-        url("../fonts/aleo-regular-webfont.ttf"),
-        url("../fonts/aleo-regular-webfont.svg");
+ font-family: "Aleo";
+ src: url("../fonts/aleo/aleo-regular-webfont.eot"),
+        url("../fonts/aleo/aleo-regular-webfont.woff"),
+        url("../fonts/aleo/aleo-regular-webfont.woff2"),
+        url("../fonts/aleo/aleo-regular-webfont.ttf"),
+        url("../fonts/aleo/aleo-regular-webfont.svg");
 }
 
 $white-color: #fff;
@@ -14,6 +14,8 @@ $light-blue-color: #5474fd;
 $dark-blue-color: #496bfe;
 $light-grey-color: #333333;
 $dark-grey-color: #232323;
+
+$main-spacing: 3px;
 
 $main-color: $white-color;
 $secondary-color: $light-color;
