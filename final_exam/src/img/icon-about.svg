@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 54" width="50" height="54">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1   0 0 0 1 0" /> </filter>
+		<image width="50" height="54" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA2CAMAAACycDqVAAAAAXNSR0IB2cksfwAAAJNQTFRF////IyAgIx8gIx8gJCAhIx8gIx8gIx8gJCAhIx8gIyAgIx8gIyAgJCAhIyAgIyAhIx8gJCAhIx8gIx8gIyAgIyAgJCAhIx8gIx8gIx8gJCAhIyAgJCAhJCAhIyAgIx8gIyAgJCAhIx8gIyAhJCAhIx8gJCAhJCAhJCAhIyAgJCAhIyAgJCAhIyAgIyAhIyAgIyAgYiXipgAAADF0Uk5TAFCAr7+/j2AgEO////9AUO/fUM+PEI9AIJ/Pn1AQYDC/cHD/YN+f7zBwQK+A3zDPMECw+VsAAAJoSURBVHicnZUNe6IwDMexUJj+G66Ks7KbA7fhHOe9fP9Pd6mgwmiRuzw+lCb+TEyTNAhcMhNhJOPkwWl0yFwsoAgEIEwnEd80sIyTdCUyQK0f7xMbosy079uc6Gl+j/gOxJ3ts0a2GydegKSnKBaqHCUeNMQXVaHVfgyRkAPd65se+TsGanvbXSKU2PiRXOW3zRbvzUuq/G52PScRVW2ulpS4gSBYUXZ9n4d8+K3PPQ4+RNyCTir62CtqmKNa+hBJYWHX4nMJVEXwzkV2jhTkQ544FmSZfWph/3HCRZaVUpIyHoSD1yCCDpM2RUUIOhe1D1HWv+lb56kxaaZ8TaDgyX9EPi8Rareh8iISniMjeIhAkLuYUvKeSw23KVbe0w8WcGamwsqL5Mgd2hfSXoLr3eWmGnRq30020AmMdWXw+DEI7ZkwGyF4suILY/RIuhrh4v3RiWNPNBwgA4awEC20koR8woQtuF2oPIlTqBX8zdUTwPYaD37SAt7q6iMUbBNxEp9cvqSmIZ2vTfRCb/+KpF0vROPnyLKNf/ayxDmrNiNX5i6xqdKH401VxJoHTJa4q2yV28SGg9aY8aglOgz0v9YVT6xs7/y1+WvGxuW6G2Dy2wYU//HHbANUeLrkgoc8l9LdzMxCBQrPYczZq7hz6zayO+Ets8wGupgCWDlqe588wDcjXWJA2yB2XMIjcuBrSo4MKYesUHGpT2i7jvB8ntgRXWRiR1wF/4UoyDKKZCOljGTUrpdnJMsyKs9bVkTWC9dOI3R5XjVXg2ot5zWo+fo0tan5Y4ypU7sxaaO0a22XlPWNmR9/AX/NKFM1G/JBAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Section - About">
+		<g id="Title">
+			<use id="Icon-AboutUs" style="filter: url(#flt1)" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

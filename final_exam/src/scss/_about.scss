@@ -1,0 +1,58 @@
+
+.about {
+	position: relative;
+	width: 100%;
+	background-color: $white-color;
+	padding: 100px 220px 20px 220px;
+
+	&__image-bg{
+		height: rem(550px);
+		width: rem(375px);
+		background: url($img-path + 'about.png') no-repeat;
+		cursor: pointer;
+		background-color: $bg-color;
+		opacity: .5;
+		padding: 75px 95px;
+		
+	}
+
+	&__icon {
+		margin-bottom: 50px;
+		width: 100%;
+	}
+
+	&__title {
+		font-size: rem(25px);
+		font-weight: bold;
+		text-transform: uppercase;
+
+	}
+
+	&__main {
+		padding-left: 120px;
+	}
+
+	&__text {
+		color: $content-color;
+		font-size: rem(14px);
+		padding-top: 80px;
+		
+		&-bold {
+			font-weight: bold;
+		}
+	}
+
+	&__button {
+		padding-right: 50px;
+		padding-left: 50px;
+		height: 50px;
+		color: $content-color;
+		background-color: $white-color;
+		border: 1px solid $content-color;
+
+		&:hover {
+			cursor: pointer;
+			font-size: rem(24px);
+		}
+	}
+}

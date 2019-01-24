@@ -1,0 +1,45 @@
+body {
+	font-family: $main-font;
+	font-size: $base-size;
+	color: $white-color;
+	background-color: $white-color;
+	height: 100%;
+	z-index: $z-index;
+
+
+
+
+}
+
+a {
+	color: $white-color;
+	text-decoration: none;
+
+	&:hover {
+		color: $white-color;
+	}
+
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+
+	li {
+		list-style: none;
+
+		a {
+			display: block;
+		}
+	} 
+}
+
+h3 {
+	font-size: rem(20px);
+	color:$services-text;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+

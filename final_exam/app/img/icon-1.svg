@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 61" width="47" height="61">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.399   0 0 0 0 0.373   0 0 0 0 0.378   0 0 0 1 0" /> </filter>
+		<image width="47" height="61" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Section - Services">
+		<g id="Description">
+			<g id="Graphic">
+				<use id="Icon-Graphic" style="filter: url(#flt1)" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
