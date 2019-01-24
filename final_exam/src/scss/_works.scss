@@ -14,8 +14,10 @@
 	}
 	
 	&__item {
+
 		margin-bottom: 70px;
 		cursor: default;
+	
 	}
 	
 
@@ -27,10 +29,14 @@
 	}
 
 	&__title {
-		color: $white-color;
 		font-size: rem(36px);  
 		text-transform: uppercase;
 		font-weight: bold;
+	}
+
+	&__title > h3 {
+		
+		color: $white-color;
 	}
 
 	&__icon {

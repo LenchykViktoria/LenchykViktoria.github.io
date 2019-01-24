@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.922   0 0 0 0 0.922   0 0 0 0 0.922   0 0 0 1 0" /> </filter>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { filter: url(#flt1);fill: #ebebeb } 
+	</style>
+	<g id="Section - Our Team">
+		<g id="Person 1">
+			<g id="Btn-Personal-Socmed">
+				<path id="facebook" class="shp0" d="M16,0c8.84,0 16,7.16 16,16c0,8.84 -7.16,16 -16,16c-8.84,0 -16,-7.16 -16,-16c0,-8.84 7.16,-16 16,-16zM18.13,6c-3.87,0 -3.13,4 -3.13,4v3h-2v4h2v9h4v-9h2l1,-4h-3c0,0 0,-1.18 0,-2c0,-0.82 1,-1 1,-1h2v-4c0,0 0,0 -3.87,0z" />
+			</g>
+		</g>
+	</g>
+</svg>
