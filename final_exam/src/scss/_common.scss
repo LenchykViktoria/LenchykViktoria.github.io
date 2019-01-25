@@ -42,3 +42,127 @@ h3 {
 }
 
 
+
+
+
+.up {
+	$size: 50px;
+	width: $size;
+	height: $size;
+	font-size: 1.5rem;
+	opacity: .2;
+	position: fixed;
+	right: 10%;
+	bottom: 10%;
+	border-radius: 15px;
+	background-color: $white-color;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $black-color;
+	cursor: pointer;
+	transition: opacity .1s ease;
+	@include z-index(up);
+}
+
+
+#progressbar {
+	width: 100%;
+	height: 2px;
+	background-color: $content-color;
+	position: fixed;
+	top: 0;
+	@include z-index(navbar);
+	transform: translateX(-100%);
+}
+
+.modal {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	@include overlay;
+	@include z-index(modal);
+	position: fixed;
+	background-color: rgba($black-color, .5);
+
+	&.open {
+		display: flex;
+	}
+
+	&__content {
+		background-color: $content-color;
+		padding: 2%;
+		border-radius: 15px;
+		width: 30%;
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	&__header {
+		font-weight: bold;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid $white-color;
+	}
+
+	&__body {
+		margin-bottom: 2.5rem;
+	}
+
+	&__close {
+		background: none;
+		border: none;
+		color: $content-color;
+		font-weight: bold;
+		cursor: pointer;
+	}
+}
+
+#map {
+	min-height: 100vh;
+}
+
+.animate-label {
+	$size: 90px;
+	min-width: 320px;
+	background-color: rgba($white-color, .5);
+	position: fixed;
+	right: 0;
+	top: 20%;
+	display: flex;
+	cursor: pointer;
+	transform: translateX(calc(100% - #{$size}));
+	will-change: transform;
+	transition: transform .4s ease;
+
+
+
+
+
+
+	&:hover {
+		transform: translateX(0);
+	}
+
+	span {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: $size;
+	}
+
+	.icon {
+		width: $size;
+		background-color: $footer-color;
+		padding-top: 30px;
+	}
+
+	.address {
+		width: calc(100% - #{$size});
+		color: $black-color;
+		text-align: center;
+	}
+}
+ .animate-label-2 {
+		@extend .animate-label;
+		top: 33%;
+	}

@@ -2,6 +2,18 @@
 	width: 100%;
 	padding: 10px 205px;
 
+	@include max991 {
+		padding: 10px 20%;
+	}
+
+
+	&__list{
+		@include max767 {
+		display: flex;
+		flex-direction: column;
+	}
+	}
+
 
 	&__icons {
 	}
@@ -16,6 +28,11 @@
 			background-color: $black-color;
 			opacity: .4;
 		}
+
+			@include max767 {
+		max-height: 200px;
+		width: 100%;
+	}
 		
 
 
@@ -29,6 +46,10 @@
 
 	&__title {
 		padding: 20px 0;
+
+		@include min768{
+			text-align: center;
+		}
 
 	}
 

@@ -47,6 +47,11 @@
 
 	&__content {
 		padding-top: 200px;
+
+
+		@include max575 {
+		text-align: center;
+	}
 	}
 
 	&__title > h1 {
@@ -54,6 +59,12 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		font-family: $title-font;
+
+
+		@include max991 {
+
+			text-align: center;
+		}
 	}
 
 	&__text {
@@ -119,7 +130,7 @@
 		background-color: $black-color;
 		transition: transform .4s ease;
 		transform: translateX(100%);
-		// @include z-index(navbar);
+		@include z-index(navbar);
 
 		@include min768 {
 			min-width: 25%;
@@ -140,5 +151,14 @@
 		width: 100%;
 	}
 
+
+
 	&-icon {}
+}
+
+
+.logo {
+	@include max575 {
+		padding-left: 100px;
+	}
 }

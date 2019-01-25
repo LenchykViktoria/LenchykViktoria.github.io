@@ -83,21 +83,21 @@
 	}
 }
 
-// $z-index: (
-// 	content: 2,
-// 	up: 100,
-// 	navbar: 101,
-// 	modal: 102,
-// 	label: 103
-// ); 
+$z-index: (
+	content: 2,
+	up: 100,
+	navbar: 101,
+	modal: 102,
+	label: 103
+); 
 
-// @function z-index-func($key) {
-//   @return map-get($z-index, $key);
-// }
+@function z-index-func($key) {
+  @return map-get($z-index, $key);
+}
 
-// @mixin z-index($key) {
-//   z-index: z-index-func($key);
-// }
+@mixin z-index($key) {
+  z-index: z-index-func($key);
+}
 
 
 

@@ -1,0 +1,28 @@
+.footer {
+	min-height: 150px;
+	background-color: $footer-color;
+	&__logo {
+		margin-right: .5rem;
+	}
+
+	&__copyright {
+		margin-bottom: 0;
+		color: $white-color;
+		font-size: rem(14px);
+	}
+
+	&__social {
+		display: flex;
+
+		&-item:not(:last-child) {
+			margin-right: 1rem;
+		}
+
+		&-link {
+
+			&:hover {
+				color: $black-color;
+			}
+		}
+	}
+}

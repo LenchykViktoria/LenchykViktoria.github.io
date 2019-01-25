@@ -5,6 +5,13 @@
 	background-color: $white-color;
 	padding: 100px 220px 20px 220px;
 
+
+	@include max991 {
+		padding: 30px 0 20px;
+	}
+
+
+
 	&__image-bg{
 		height: rem(550px);
 		width: rem(375px);
@@ -13,24 +20,45 @@
 		background-color: $bg-color;
 		opacity: .5;
 		padding: 75px 95px;
+		background-size: cover;
+
+		@include max767 {
+		width: 100%;
+		max-height: 200px;
+	}
 		
 	}
 
 	&__icon {
 		margin-bottom: 50px;
 		width: 100%;
+
+
+		@include max767 {
+		margin-bottom: 60px
 	}
+}
 
 	&__title {
 		font-size: rem(25px);
 		font-weight: bold;
 		text-transform: uppercase;
 
+
+		@include max991 {
+		text-align: center;
+
 	}
+}
 
 	&__main {
 		padding-left: 120px;
+
+		@include max991 {
+		padding-left: 50px;
+		text-align: center;
 	}
+}
 
 	&__text {
 		color: $content-color;
@@ -39,6 +67,10 @@
 		
 		&-bold {
 			font-weight: bold;
+		}
+
+		@include max991 {
+			padding-top: 0;
 		}
 	}
 
