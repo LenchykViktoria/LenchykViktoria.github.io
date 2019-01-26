@@ -8,6 +8,8 @@
 
 
 
+
+
 	&__content {
 		position: relative;
 		z-index: 2;
@@ -67,6 +69,11 @@
 		width: $big_width;
 		height: 0;
 		padding-bottom: $big_height;
+
+		@include max767 {
+		margin-bottom: 30px;
+	}
+
 
 		input {
 			display: none;
